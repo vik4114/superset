@@ -517,11 +517,11 @@ function AlertList({
 
   const header = HeaderExtension ? (
     <StyledHeaderWithIcon>
-      <div>{t('Alerts & reports')}</div>
+      <div>{t('Reports')}</div>
       <HeaderExtension />
     </StyledHeaderWithIcon>
   ) : (
-    t('Alerts & reports')
+    t('Reports')
   );
 
   return (
@@ -530,13 +530,6 @@ function AlertList({
         activeChild={pathName}
         name={header}
         tabs={[
-          {
-            name: 'Alerts',
-            label: t('Alerts'),
-            url: '/alert/list/',
-            usesRouter: true,
-            'data-test': 'alert-list',
-          },
           {
             name: 'Reports',
             label: t('Reports'),

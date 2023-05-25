@@ -387,8 +387,8 @@ class SupersetAppInitializer:  # pylint: disable=too-many-public-methods
 
         appbuilder.add_view(
             AlertView,
-            "Alerts & Report",
-            label=__("Alerts & Reports"),
+            "Report",
+            label=__("Reports"),
             category="Manage",
             category_label=__("Manage"),
             icon="fa-exclamation-triangle",
